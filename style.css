@@ -13,7 +13,9 @@ body {
   margin: 0 auto;
   color: var(--text-color-light);
   background-color: var(--bg-color-light);
-  transition: color 0.3s, background-color 0.3s;
+  transition:
+    color 0.3s,
+    background-color 0.3s;
   padding-left: 8px;
   padding-right: 4px;
 }
@@ -150,7 +152,6 @@ h2 {
 .video-container {
   position: relative;
   width: 100%;
-  padding-bottom: 56.25%;
   overflow: hidden;
 }
 
